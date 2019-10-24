@@ -54,9 +54,11 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem 'omniauth-google-oauth2'
+gem 'omniauth-facebook'
 gem 'figaro'
 gem 'activerecord-session_store'
 # gem 'youtube_it'
 gem 'yt'
 gem 'carrierwave', '~> 1.0'
 gem "fog"
+gem "koala"
