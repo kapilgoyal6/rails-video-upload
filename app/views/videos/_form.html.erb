@@ -16,13 +16,13 @@
   <div class="field">
     <%= form.label :title, "Send to:" %>
     <%= form.check_box :youtube %> Youtube
-    <%= link_to "Authenticate Google Account", "http://localhost:3000/users/auth/google_oauth2" unless current_user.is_youtube_authorized? %>
+    <%= link_to "Authenticate Google Account", "/users/auth/google_oauth2" unless current_user.is_youtube_authorized? %>
     <br>
     <%= form.check_box :facebook %> Facebook
-    <%= link_to "Authenticate Google Account", "http://localhost:3000/users/auth/google_oauth2" unless current_user.is_facebook_authorized? %>
+    <%= link_to "Authenticate Google Account", "/users/auth/google_oauth2" unless current_user.is_facebook_authorized? %>
     <br>
     <%= form.check_box :instagram %> Instagram
-    <%= link_to "Authenticate Google Account", "http://localhost:3000/users/auth/google_oauth2" unless current_user.is_instagram_authorized? %>
+    <%= link_to "Authenticate Google Account", "/users/auth/google_oauth2" unless current_user.is_instagram_authorized? %>
   </div>
 
   <div class="field">
