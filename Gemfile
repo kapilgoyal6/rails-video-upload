@@ -62,3 +62,6 @@ gem 'yt'
 gem 'carrierwave', '~> 1.0'
 gem "fog"
 gem "koala"
+gem 'omniauth-instagram'
+gem 'instagram'
+gem 'thin'
