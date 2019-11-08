@@ -1,0 +1,13 @@
+AWS_ACCESS_KEY_ID: your-aws-access-key-id
+AWS_SECRET_ACCESS_KEY: your-aws-secret-access-key
+REGION: your-aws-region
+AWS_BUCKET_NAME: your-aws-bucket-name
+
+GOOGLE_CLIENT_ID: your-google-client-id
+GOOGLE_CLIENT_SECRET: your-google-client-secret
+
+FACEBOOK_APP_ID: your-facebook-app-id
+FACEBOOK_APP_SECRET: your-facebook-app-secret
+
+INSTAGRAM_APP_ID: your-instagram-app-id
+INSTAGRAM_APP_SERCRET: your-instagram-app-secret
